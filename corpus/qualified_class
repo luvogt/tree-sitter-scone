@@ -1,0 +1,20 @@
+==================
+qulified class
+==================
+
+Feature: Test
+  test
+
+Scenario:
+
+  Then infer that no LaReine is a pizza, which is the ingredient of fruit_topping.
+  
+---
+
+(source_file
+  (function_definition
+    (identifier)
+    (parameter_list)
+    (primitive_type)
+    (block
+      (return_statement (number))))

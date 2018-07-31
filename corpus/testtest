@@ -1,0 +1,62 @@
+==================
+Return statements
+==================
+
+Feature: Family relationships
+  feature narrative
+
+Background:
+  * Language %OWL
+  * Test the ontology <https://ontohub.org/examples/example.owl>
+
+Scenario: First Scenario
+  This is for testing
+  * Language %OWL
+
+  Given me is a lutscher.
+  And that he is a lutscher.
+  Then infer that me is the lutscher of him.
+
+  Given qname is not a qname.
+  And that %OWL
+    """
+    owl stuff
+    owl stuff
+    """
+  Given tiger is an animal.
+  Given that father and mother and son and daugther are different.
+  And qname is a qname, that is the father of only qname .
+  Given qname is a qnme, that is qname and qname .
+  Given qname is a qname, that is qname and qname.
+  Given qname is a qname, that is qname and qname.
+  Given qname is ana, that does qname some qname.
+  And janulrich is sdjsdkfjljdf that is a mother to some jdsfdjk.
+  Given qname is a qname, that is the father of only qname.
+  Then infer every tiger is an animal
+  And don't infer that anna is bertold.
+  Given qname hasn't as qname qname.
+  Given qname is the qname of qname.
+  Given some qnamefg are qname.
+  Given every qname is qname or qname or not a qname or qname.
+  Given no qname is a neither a qname nor a qname.
+  Given kuchen and torten are disjoint.
+  Given a qname is defined as not a qname.
+  Given qname is enumerated as qname and qname.
+  Then don't infer that a qname is defined as qname.
+  And don't infer that a qname is defined as qname.
+  Then the scenario is consistent.
+  Then infer qname is a subclass of qname.
+  Then infer qname is the same as qname.
+  Given tim and anna are different.
+  Given Amy is a parent of Chris.
+  Then infer that parent is a renntier.
+
+---
+
+(source_file
+  (function_definition
+    (identifier)
+    (parameter_list)
+    (primitive_type)
+    (block
+      (return_statement (number))))
