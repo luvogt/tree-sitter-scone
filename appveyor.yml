@@ -16,4 +16,4 @@ build: off
 
 branches:
   only:
-- master
+    - master
